@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links &amp; Images</title>
+  </head>
+  <body>
+    <h1>Profile &amp; Contact Overview</h1>
+
+    <!-- 1. Relative image embedding with descriptive alt text -->
+    <h2>Profile Picture</h2>
+    <img src="assets/profile.jpg" alt="Profile photo of the developer smiling outdoors">
+
+    <!-- 2. Internal anchor jump link -->
+    <p>
+      Jump directly to the <a href="#contact">Contact Information</a> below.
+    </p>
+
+    <hr>
+
+    <!-- 3. External link opening in a new tab with security attributes -->
+    <h2>External Resources</h2>
+    <p>
+      Check out my code repositories on 
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>.
+    </p>
+
+    <hr>
+
+    <!-- Target section for the internal jump, containing the mailto link -->
+    <h2 id="contact">Contact Information</h2>
+    <p>
+      Feel free to reach out via email:
+      <a href="mailto:developer@example.com">developer@example.com</a>
+    </p>
+  </body>
+</html>
